@@ -1,4 +1,4 @@
-def oxford_comma(words)
+def oxford_comma(array)
   if words.length == 2
     return "#{words[0]} and #{words[1]}"
   elsif words.length > 2
